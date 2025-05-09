@@ -96,3 +96,25 @@ Non-functional requirements describe **how the system should perform** rather th
 ### Use Case Diagram for the Booking System
 
 ![Use Case Diagram](alx-booking-uc.png)
+
+## Acceptance Criteria
+
+Acceptance Criteria define the specific conditions that a feature or functionality must meet in order to be accepted by the stakeholders. They serve as a checklist that ensures the software behaves as expected and meets business requirements.
+
+### Importance of Acceptance Criteria:
+- **Clarity for Developers and Testers**: It removes ambiguity and ensures everyone understands what “done” means.
+- **Guides Development**: Helps developers build exactly what is required, reducing rework.
+- **Foundation for Testing**: Used as the basis for creating test cases.
+- **Stakeholder Satisfaction**: Ensures that delivered features meet the agreed-upon expectations.
+
+### Example: Checkout Feature – Booking Management System
+
+**Feature**: Checkout and Booking Confirmation
+
+**Acceptance Criteria:**
+- Users can select check-in and check-out dates from a calendar.
+- Only available dates can be selected.
+- Upon clicking "Book Now," a summary of booking details should be displayed.
+- Users must enter valid payment details and click "Confirm Booking."
+- A booking confirmation message should appear after successful payment.
+- A confirmation email with booking details should be sent to the user within 2 minutes.
